@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    margin: 0;
+    font-family: 'Comic sans MS', sans-serif;
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/002/835/209/large_2x/dark-blue-green-template-in-rectangles-modern-design-with-rectangles-in-abstract-style-pattern-for-commercials-ads-vector.jpg"); */
+}
+
+.fondo-wall-verde{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/835/209/large_2x/dark-blue-green-template-in-rectangles-modern-design-with-rectangles-in-abstract-style-pattern-for-commercials-ads-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: auto;
+}
+
+h1{
+    display: flex;
+    font-size: 50px;
+    font-family:cursive;
+    font-style: italic;
+    box-shadow: 2px 2px 10px black;
+    /* background-color: rgb(12, 146, 146); */
+
+}
+
+.titulo{
+    border: 5px;
+    width: auto;
+}
+
+div > .imgfondo{
+    background-image: url("./Assets/design2_image1.jpg");
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(60%);
+    box-shadow: 2px 2px 70px rgb(93, 175, 112);
+
+}
+
+a{
+    border: 5px;
+    padding: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px black;
+    
+}
+a:hover{
+    color:rgb(255, 218, 11);
+    width: auto;
+    text-shadow: 2px 2px 1px rgb(160, 113, 11);
+}
+
+.barra-navegacion{
+    display: inline-flex; 
+    flex-direction: column;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-top: -150px;
+    position: fixed;
+    flex-wrap: nowrap;
+    background-attachment: fixed;
+    
+}
+
+.home{
+    margin: 2px;
+    width: 110px;
+    margin-bottom: 25px;
+    background-color: rgba(3, 41, 41, 50);
+    
+    
+}
+
+.home:hover{
+    display: inline-block;
+    width: 100px;
+    letter-spacing: 4px;
+    box-shadow: 2px 2px 20px rgb(187, 160, 4);
+    background-color: rgb(6, 92, 92);
+    transition-duration: 0.2s;
+}
+
+.about{
+    margin: 2px;
+    width: 215px;
+    margin-bottom: 25px;
+    background-color: rgb(3, 41, 41);
+}
+.about:hover{
+    display: inline-block;
+    width: 205px;
+    letter-spacing: 4px;
+    box-shadow: 2px 2px 20px rgb(233, 163, 11);
+    background-color: rgb(6, 92, 92);
+    transition-duration: 0.2s;
+}
+
+.contact{
+    margin: 2px;
+    width: 145px;
+    margin-bottom: 25px;
+    background-color: rgb(3, 41, 41);
+}
+.contact:hover{
+    display: inline-block;
+    width: 135px;
+    letter-spacing: 4px;
+    box-shadow: 2px 2px 20px rgb(233, 163, 11);
+    background-color: rgb(6, 92, 92);
+    transition-duration: 0.2s;
+}
+
+.rules{
+    margin: 2px;
+    width: 110px; 
+    margin-bottom: 25px;
+    background-color: rgb(3, 41, 41);
+}
+
+.rules:hover{
+    display: inline-block;
+    width: 100px;
+    letter-spacing: 4px;
+    box-shadow: 2px 2px 20px rgb(233, 163, 11);
+    background-color: rgb(6, 92, 92);
+    transition-duration: 0.2s;
+}
+
+.game-info{
+    margin: 2px;
+    width: 190px;
+    background-color: rgb(3, 41, 41);
+}
+
+.game-info:hover{
+    display: inline-block;
+    width: 180px;
+    letter-spacing: 4px;
+    box-shadow: 2px 2px 30px rgb(233, 163, 11);
+    background-color: rgb(6, 92, 92);
+    transition-duration: 0.2s;
+}
+
+main{
+    display: block;
+    flex-direction: row;
+    font-family: cursive;
+}
+
+.logo{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(29, 28, 28);
+    background-color: rgb(29, 28, 28);
+    box-shadow: 2px 2px 20px rgb(6, 90, 6);
+    flex-wrap: wrap;
+    position: absolute;
+    left: 81%;
+    top: 380px;
+}
+
+h2{
+    background-color: rgb(29, 28, 28);
+    margin-top: 0px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    flex-wrap: wrap;
+}
+
+h3{
+    flex-direction: row;
+    max-width: 60%;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+p{
+    flex-direction: row;
+    max-width: 60%;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.texto > p:first-letter{
+    margin-left: 20px;
+}
+
+p > a{
+    box-shadow: none;
+    text-shadow: none;
+}
+
+p > a:hover{
+    color:azure;
+}
+.contacto{
+    text-align: left;
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer{
+    width: 100%;
+    box-shadow: 2px 2px 30px rgb(93, 175, 112);
+}
+footer > p > a {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.info-foot{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 270px;
+    
+}
+
+.contacto-foot{
+    display: inline-block;
+    flex-direction: row;
+    text-align: right;
+    letter-spacing: 2px;
+    line-height: 10px;
+    font-size: 20px;
+    /* height: 150px; */
+}
+
