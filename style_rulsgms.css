@@ -1,5 +1,5 @@
 /*///////CSS - RULES///////*/
-.titulo-rules > h2{
+.titulo-rules > h2 {
     box-shadow: 2px 2px 10px green;
 }
 
@@ -12,6 +12,7 @@
 
 .titulo-rules > h4{
     text-align: center;
+
 }
 
 .sub-titulo > h3 , p{
@@ -23,6 +24,7 @@
 .lista > h2{
     box-shadow: 2px 2px 10px green;
 }
+
 .lista > h3{
     text-align: left;
     margin-left: 21%;
@@ -41,6 +43,7 @@ ol , ul{
 
 .lista-b > li{
     margin-top: 0px;
+    text-align: center;
     
 }
 
@@ -49,7 +52,7 @@ ol , ul{
     box-shadow: 2px 2px 10px green;
 }
 
-.titulo-ginfo > h3{
+.titulo-ginfo > h3 {
     text-align: center;
     margin-top: 0%;
     text-transform: uppercase;

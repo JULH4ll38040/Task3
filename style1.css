@@ -1,0 +1,102 @@
+*{
+    font-family: cursive;
+}
+h1{
+    display:inline-flex;
+    margin: 0% 0% 0% 10%;
+    font-size: 50px;
+    font-family:cursive;
+    font-style: italic;
+}
+.titulo{
+    border-bottom: 5px solid black;
+    width: auto;
+    box-shadow: 5px;
+}
+
+.imgfondo{
+    background-image: url("./Imagenes/design1_image1.jpg");
+    height: 350px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;/* 
+    border-left: 20px solid black; */
+
+    
+}
+
+.btn-nav{
+    display: inline-flex;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-align: center;
+    position: absolute;
+    left: 1500px;
+}
+
+.home {
+    background-color: green;
+    inline-size: 100px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+ .about{
+    background-color: blue;
+    inline-size: 100px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.contact{
+    background-color: blue;
+    inline-size: 100px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+main{
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    font-family: cursive;
+}
+
+.logo{
+    display: inline-block;
+    width: 150px;
+    border: 20px ;
+    position: absolute;
+    left: 90px;
+    top: 500px;
+}
+
+h2{
+    display: block;
+    background-color: black;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 413px;
+    right: 0px;
+
+}
+
+h3{
+    display: block;
+    font-size: 20px;
+    text-align: start;
+    position: relative;
+    left: 350px;
+    top: 40px;    
+}
+
+p{
+    display: block;
+    font-size: 20px;
+    text-align: start;
+    position: relative;
+    left: 400px; 
+    top: 25px;
+}
