@@ -8,31 +8,251 @@
     <link rel="icon" href="./Assets/Logo_Mighty_ducks-01.ico">
     <link rel="stylesheet" href="./style3.css">
 </head>
-<body>
+
+<body class="fondo-wall-verde">
+    
     <header>
         
         <div class="titulo-home">      
             <h1 class="titulo">Mighty Ducks Hockey League</h1>
         
-            <img src="./Assets/design2_image1.jpg" alt="jugadores de hockey">
+            <img src="./Assets/design2_image1.jpg" alt="jugadores de hockey" class="img-fondo">
 
         </div>    
 
-            <nav class="barra-navegacion">
+        <nav class="barra-navegacion">
 
-                
-                    <a href="#">Home</a>
-               
-                    <a href="./aboutMDHL.html">About MDHL</a>
-            
-                    <a href="./contact.html">Contact</a>
-            
-                    <a href="./rules.html">Rules></a>
-            
-                    <a href="./game_info.html">Game-Info</a>
-                
-            </nav>
+            <div class="home">
+                <a href="./home.html">Home</a>
+            </div>
+
+            <div class="about">
+                <a href="./aboutMDHL.html">About MDHL</a>
+            </div>
+
+            <div class="contact">
+                <a href="./contact.html">Contact</a>
+            </div>
+
+            <div class="rules">
+                <a href="./rules.html">Rules</a>
+            </div>
+
+            <div class="game-info">
+                <a href="./game_info.html">Game-Info</a>
+            </div>
+
+            <div class="registration">
+                <a href="#">Registration</a>
+            </div>
+
+        </nav>
                 
     </header>
+
+    <main>
+        <div>
+            
+            <h2>Registration Form</h2>    
+            <img src="./Assets/Logo_Mighty_ducks-01.png" alt="jugador hockey" class="logo">
+
+        </div>
+
+        <form action="./show-data.html" method="get">
+
+                <fieldset class="top_line">
+                    <div>
+                        <label for="nombre_jugador">Player's First Name:</label>
+                        <input type="text" id="nombre_jugador">
+                        
+                        <label for="app_jugador">Last Name:</label>
+                        <input type="text" id="app_jugador">
+                    </div>
+
+                    <div>
+                        <label for="direccion">Street Address:</label>
+                        <input type="text" id="direccion">
+                    </div>
+
+                    <div>
+                        <label for="ciudad">City:</label>
+                        <input type="text" id="ciudad">
+                    
+                        <label for="codep">Zip Code:</label>
+                        <input type="text" id="codep">
+                    </div>
+                
+                    <div>
+                        <label for="Btdate">Birth Date(mm/dd/yy):</label>
+                        <input type="text" id="Btdate">
+                        
+                        <label>Gender: </label>
+                        
+                        <label>
+                            <span>Female</span>
+                            <input type="checkbox" name="opgender" value="Female">
+                            
+                        </label>
+                        <label>
+                            <span>Male</span>
+                            <input type="checkbox" name="opgender" value="Male">
+                            
+                        </label>
+                    </div>
+                
+                    <div>
+                        <label>Grade: </label>
+                        <input type="checkbox" name="gradeV" value="grade">
+                        <label>
+                            <span>Pre-School</span>
+                            
+                            
+                        </label>
+                        <label>
+                            <input type="checkbox" name="gradeV" value="primero">
+                            <span>1st</span>
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="gradeV" value="segundo">
+                            <span>2nd</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="gradeV" value="tercero">
+                            <span>3rd</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="gradeV" value="cuarto">
+                            <span>4th</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="gradeV" value="quinto">
+                            <span>5th</span>
+                        </label>
+                    </div>
+                
+
+                <div class="quest_line">
+                    <label class="titulo-sec">Which elementary school do you live near?</label>
+                    <div>
+                        <label class="subtit_regist">Closest School: </label>
+
+                        <div class="questline_1">
+                            <label>
+                                <input type="checkbox" name="opgender" value="AJ Katzenmaier">
+                                <span>AJ Katzenmaier</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="opgender" value="Marjorie P. Hart">
+                                <span>Marjorie P. Hart</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="opgender" value="Greenbay">
+                                <span>Greenbay</span>
+                            </label>
+                        </div>
+                        <div class="questline_2">
+                            <label>
+                                <input type="checkbox" name="city-quest" value="North Elementary">
+                                <span>North Elementary</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="opgender" value="Howard A. Yeager">
+                                <span>Howard A. Yeager</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="opgender" value="South Elementary">
+                                <span>South Elementary</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                    <label class="titulo-sec">What position(s) do you normally play? (check all that apply)</label>
+                    
+                    <div>
+                        <div class="questline_1">
+                                    <label>
+                                        <span>Forward</span>
+                                        <input type="checkbox" name="opgender" value="Male">
+                                    </label>
+                                    <label>
+                                        <span>Midfield</span>
+                                        <input type="checkbox" name="opgender" value="Male">
+                                    </label>
+                        </div>
+
+                        <div class="questline_2">
+                                <label>
+                                    <span>Defense</span>
+                                    <input type="checkbox" name="opgender" value="Male">
+                                </label>
+                                <label>
+                                    <span>Goalkeeper</span>
+                                    <input type="checkbox" name="opgender" value="Male">
+                                </label>
+                        </div>
+                    </div>
+
+                    
+                        
+                        <label class="subtit_regist">Uniform Size : </label>
+                    <div>
+                        <div class="questline_1">    
+                        <label >
+                            <input type="checkbox" name="opgender" value="Male">
+                            <span>Youth Smal</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="opgender" value="Male">
+                            <span>Medium</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="opgender" value="Male">
+                            <span>Youth Medium</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="opgender" value="Male">
+                            <span>Large</span>
+                        </label>
+                        </div>
+
+                        <div class="questline_2">
+                        <label>
+                            <input type="checkbox" name="opgender" value="Male">
+                            <span>Youth Large</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="opgender" value="Male">
+                            <span>Extra-Large</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="opgender" value="Male">
+                            <span>Small</span>
+                        </label>
+                    </div>
+
+                </div>    
+                    
+                    <div>
+                        <label class="titulo-sec">Permission to Play </label>
+                        
+                        <p class="texto-form">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing th eposibility of physical injury associated with hockey an din consideration for the "League" acepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, incluing the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL spondored activities, which transportation</p>
+                        <p class="texto-form">By signing below, I herebyagree andauthorizethe above. In addition, by signing below, I also ackonowledge that I have rear the cancellation policy and agree to its terms.</p>
+
+                        <label>Parent/GuardianSignature:</label>
+                        <label>Date:</label>
+
+                    </div>
+                </fieldset>        
+        </form>
+
+    </main>  
+    
+    <footer class="fondo-wall-verde">
+        <p class="info-foot">Please more informatión about to league: Michael Randall, League Cordinator</p>
+        <p class="contacto-foot">Phone: (630) 690-8132</p>
+        <p class="contacto-foot">Email: <a href="mailto:mdhl@chihockey.org?subject=contacto"> michael.randell@chihockey.org</a></p> 
+    </footer>
 </body>
 </html>
